@@ -9,11 +9,11 @@ def line(array)
     puts statement
   end
 end
-def take_a_number(array, "string")
+def take_a_number(array, string)
   array.each do |name|
     puts "Welcome, #{name}."
   end
   string.each_with_index do |index+1|
     puts "You are number #{index} in line."
-  end  
+  end
 end
